@@ -8,8 +8,8 @@ function Repo (props){
                 <h2>{props.repo_data.name}</h2>
                 <p>{props.repo_data.description}</p>
                 <div className="repo__status">
-                    <span>stars: {props.repo_data.stargazers_count}</span>
-                    <span>issues: {props.repo_data.open_issues_count}</span>
+                    <span className="bordered">stars: {props.repo_data.stargazers_count}</span>
+                    <span className="bordered">issues: {props.repo_data.open_issues_count}</span>
                     <span>submitted at {props.repo_data.updated_at} by {props.repo_data.owner.login}</span>
                 </div>
             </div>

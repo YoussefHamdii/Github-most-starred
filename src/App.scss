@@ -2,3 +2,26 @@
   margin: 0;
   padding: 0;
 }
+
+.repo__container{
+  margin: 50px;
+  display: flex;
+  .repo__body{
+    margin-left: 25px;
+  }
+  .repo__avatar{
+    max-height: 200px;
+    max-width: 200px;
+  }
+  .repo__status{
+    margin-top: 10px;
+  }
+  .repo__status span:nth-child(n+2){
+    margin-left: 20px;
+  }
+}
+
+.bordered{
+  padding: 3px;
+  border: 2px solid black;
+}

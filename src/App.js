@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 import Repo from './components/Repo';
@@ -22,7 +22,7 @@ function App() {
   console.log(data);
   return (
     <div className="App">
-      <Repo />
+      {data.map(repo => <Repo repo_data={repo} />)}
     </div>
   );
 }

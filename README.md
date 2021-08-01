@@ -8,5 +8,5 @@ SCSS for styling components.
 
 To run this project you need to clone this repo and run the following commands in order in terminal of project:
 
-'npm i'
+'npm i',
 'npm start'

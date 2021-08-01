@@ -6,6 +6,7 @@
 .repo__container{
   margin: 50px;
   display: flex;
+  flex-wrap: wrap;
   .repo__body{
     margin-left: 25px;
   }
@@ -15,6 +16,8 @@
   }
   .repo__status{
     margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
   }
   .repo__status span:nth-child(n+2){
     margin-left: 20px;

@@ -1,6 +1,7 @@
 
 
 function Repo (props){
+    // Making repo data layout for each repo item
     return(
         <div className="repo__container">
             <img className="repo__avatar" alt="Avatar" src={props.repo_data.owner.avatar_url}/>
